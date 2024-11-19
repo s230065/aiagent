@@ -47,4 +47,4 @@ if st.button('인공지능의 예측 결과'):
         return int(p) + 1
     else:
         return int(p)
- st.write('인공지능의 예측 결과 당신의 스트레스 레벨은 0,1,2 중',p,'입니다')
+ st.write('인공지능의 예측 결과 당신의 스트레스 레벨은 0,1,2 중',int(p),'입니다')
