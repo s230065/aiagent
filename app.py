@@ -22,7 +22,7 @@ with col1:
  st.image('시각화1.PNG')
 with col2:
  st.subheader('데이터시각화2')
- 
+ st.image('')
 
 
 # 4. 모델 활용
