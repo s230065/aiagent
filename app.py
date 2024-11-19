@@ -41,5 +41,10 @@ i=st.number_input('괴롭힘의 정도를 입력하세요', value=0)
 
 if st.button('인공지능의 예측 결과'):
  input_data = [[a,b,c,d,e,f,g,h,i]]
- p=round(model.predict(input_data))
+ p=model.predict(input_data)
+ def custom_round(p):
+    if p - int(p) >= 0.5:
+        return int(p) + 1
+    else:
+        return int(p)
  st.write('인공지능의 예측 결과 당신의 스트레스 레벨은 0,1,2 중',p,'입니다')
