@@ -16,6 +16,10 @@ st.write(' - 테스트 데이터 : 330건')
 st.write(' - 인공지능 모델 정확도 : ')
 
 # 3. 데이터시각화
+col1,col2=st.columns(2)
+with col1:
+ st.subheader('데이터시각화1')
+ st.image(
 
 
 # 4. 모델 활용
