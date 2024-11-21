@@ -29,15 +29,15 @@ with col2:
 st.subheader('지능 에이전트 활용 방법')
 st.subheader('****다음을 입력하세요. 인공지능이 당신의 스트레스 정도를 알려드립니다!')
 
-a=st.number_input('불안함의 정도를 입력하세요', value=0)
-b=st.number_input('자아 존중감의 정도를 입력하세요', value=0)
-c=st.number_input('우울함의 정도를 입력하세요', value=0)
-d=st.number_input('두통의 정도를 입력하세요', value=0)
-e=st.number_input('수면의 질의 정도를 입력하세요', value=0)
-f=st.number_input('기본적 욕구의 충족의 정도를 입력하세요', value=0)
-g=st.number_input('미래 진로에 대한 고민의 정도를 입력하세요', value=0)
-h=st.number_input('학업적 성공의 정도를 입력하세요', value=0)
-i=st.number_input('괴롭힘의 정도를 입력하세요', value=0)
+a=st.number_input('불안함의 정도를 입력하세요(0~21)', value=0)
+b=st.number_input('자아 존중감의 정도를 입력하세요(0~30)', value=0)
+c=st.number_input('우울함의 정도를 입력하세요(0~27)', value=0)
+d=st.number_input('두통의 정도를 입력하세요(0~5)', value=0)
+e=st.number_input('수면의 질의 정도를 입력하세요(0~5)', value=0)
+f=st.number_input('기본적 욕구의 충족의 정도를 입력하세요(0~5)', value=0)
+g=st.number_input('미래 진로에 대한 고민의 정도를 입력하세요(0~5)', value=0)
+h=st.number_input('학업적 성공의 정도를 입력하세요(0~5)', value=0)
+i=st.number_input('괴롭힘의 정도를 입력하세요(0~5)', value=0)
 
 if st.button('인공지능의 예측 결과'):
  input_data = [[a,b,c,d,e,f,g,h,i]]
