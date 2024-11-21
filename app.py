@@ -13,7 +13,7 @@ st.write(' - 기계학습 알고리즘: 선형 회귀')
 st.write(' - 학습 데이터 출처: https://www.kaggle.com/datasets/rxnach/student-stress-factors-a-comprehensive-analysis')
 st.write(' - 훈련 데이터 : 770건')
 st.write(' - 테스트 데이터 : 330건')
-st.write(' - 인공지능 모델 정확도 : ')
+st.write(' - 인공지능 모델 정확도 : 0.79')
 
 # 3. 데이터시각화
 col1,col2=st.columns(2)
