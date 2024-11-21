@@ -14,6 +14,7 @@ st.write(' - 학습 데이터 출처: https://www.kaggle.com/datasets/rxnach/stu
 st.write(' - 훈련 데이터 : 770건')
 st.write(' - 테스트 데이터 : 330건')
 st.write(' - 인공지능 모델 정확도 : 0.79')
+st.subheader('[인공지능 윤리: 사회의 공공선] 이 인공지능 모델은 학생들의 스트레스 진단과 치료를 위한 공익 목적으로 제작되었습니다.')
 
 # 3. 데이터시각화
 col1,col2=st.columns(2)
