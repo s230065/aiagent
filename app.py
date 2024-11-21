@@ -37,7 +37,7 @@ e=st.number_input('수면의 질의 정도를 입력하세요(0~5)', value=0)
 f=st.number_input('기본적 욕구의 충족의 정도를 입력하세요(0~5)', value=0)
 g=st.number_input('미래 진로에 대한 고민의 정도를 입력하세요(0~5)', value=0)
 h=st.number_input('학업적 성공의 정도를 입력하세요(0~5)', value=0)
-i=st.number_input('괴롭힘의 정도를 입력하세요(0~5)', value=0)
+i=st.number_input('괴롭힘의 정도를 입력하세요(1~5)', value=0)
 
 if st.button('인공지능의 예측 결과'):
  input_data = [[a,b,c,d,e,f,g,h,i]]
