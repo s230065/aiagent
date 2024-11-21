@@ -42,9 +42,9 @@ i=st.number_input('괴롭힘의 정도를 입력하세요', value=0)
 if st.button('인공지능의 예측 결과'):
  input_data = [[a,b,c,d,e,f,g,h,i]]
  p=model.predict(input_data)
- if p <0.5:
+ if p <1:
   p=0
- if 0.5<=p<1.5:
+ if 1<=p<2:
   p=1
  else:
   p=2
